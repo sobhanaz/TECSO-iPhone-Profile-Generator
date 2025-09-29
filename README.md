@@ -32,7 +32,47 @@ TECSO iPhone Profile Generator is a comprehensive suite of professional tools de
 
 ---
 
-## 🛠️ Tools Included
+## � Application Screenshots
+
+<div align="center">
+
+### 🚀 TECSO Professional Launcher
+*Main hub for accessing all TECSO tools*
+
+![TECSO Launcher](screenshots/launcher-preview.png)
+
+---
+
+### 🆔 UUID Generator
+*Generate unique identifiers for mobile profiles*
+
+![UUID Generator](screenshots/uuid-generator-preview.png)
+
+---
+
+### 📱 Template Generator
+*Create complete mobile configuration profiles*
+
+![Template Generator](screenshots/template-generator-preview.png)
+
+---
+
+### 📋 Generated Configuration
+*Live preview of mobile configuration XML*
+
+![Configuration Preview](screenshots/configuration-preview.png)
+
+</div>
+
+> **📝 Note:** To capture screenshots, please:
+> 1. Run each application from the `dist/` folder
+> 2. Take screenshots of each tool's interface
+> 3. Save them in the `screenshots/` folder with the names shown above
+> 4. Recommended size: 1200x800 pixels for best quality
+
+---
+
+## �🛠️ Tools Included
 
 ### 1. 🆔 UUID Generator
 Generate unique identifiers for mobile profiles to prevent blocking when multiple devices use the same configuration.
@@ -83,7 +123,7 @@ Central hub for accessing all TECSO tools with integrated contact information.
 
 ### Method 1: Use Pre-built Executables
 1. **Download** the latest release from our repository
-2. **Run** `iPhone-Tools-Launcher.exe` for the main interface
+2. **Run** `TECSO-Launcher-Updated.exe` for the main interface
 3. **Click** on the tool you need (UUID Generator or Template Generator)
 4. **Generate** your unique profile and save as `.mobileconfig`
 5. **Transfer** to iPhone and install via Settings
@@ -117,7 +157,7 @@ python launcher.py                 # Main Launcher
 
 1. **Start the Template Generator**
    ```
-   Run: iPhone-Template-Generator-Fixed.exe
+   Run: TECSO-Template-Generator-Updated.exe
    ```
 
 2. **Configure Your Profile**
@@ -206,16 +246,30 @@ HEX:  d85183f584b748959eb3eb76e7cd45ab
 ### File Structure
 ```
 📁 TECSO-iPhone-Profile-Generator/
-├── 📱 uuid-Generator.py           # UUID generation tool
-├── 📱 template-generator.py       # Profile template creator
-├── 🚀 launcher.py                # Main application launcher
-├── 📁 dist/                      # Compiled executables
-│   ├── iPhone-UUID-Generator.exe
-│   ├── iPhone-Template-Generator-Fixed.exe
-│   └── iPhone-Tools-Launcher.exe
-├── 📄 LICENSE                    # MIT License
-├── 📖 README.md                  # This documentation
-└── 📁 .venv/                     # Python virtual environment
+├── 📱 uuid-Generator.py                    # UUID generation tool
+├── 📱 template-generator.py                # Profile template creator
+├── 🚀 launcher.py                         # Main application launcher
+├── � massive-config-generator.py          # Bulk UUID generation tool
+├── �📁 dist/                               # Compiled executables
+│   ├── TECSO-UUID-Generator.exe           # UUID Generator executable
+│   ├── TECSO-Template-Generator-Updated.exe # Template Generator (latest)
+│   ├── TECSO-Launcher-Updated.exe         # Professional Launcher (latest)
+│   └── TECSO-Template-Generator-Fixed.exe # Template Generator (legacy)
+├── 📁 screenshots/                        # Application preview images
+│   ├── launcher-preview.png
+│   ├── uuid-generator-preview.png
+│   ├── template-generator-preview.png
+│   └── configuration-preview.png
+├── 📄 .gitignore                          # Git ignore rules
+├── 📄 LICENSE                             # MIT License
+├── 📖 README.md                           # This documentation
+├── 📖 FA-README.md                        # Persian documentation
+├── 📁 .venv/                              # Python virtual environment
+└── 📋 *-template.mobileconfig             # Mobile configuration templates
+    ├── Hamrah-Aval-template.mobileconfig
+    ├── Irancell-template.mobileconfig
+    ├── Rightel-template.mobileconfig
+    └── Alloprators-template.mobileconfig
 ```
 
 ---
@@ -226,7 +280,7 @@ HEX:  d85183f584b748959eb3eb76e7cd45ab
 
 ```bash
 # Clone repository
-git clone https://github.com/Tecso-Dev/Iphone-14-15-IRAN-Anten.git
+git clone https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator.git
 cd Iphone-14-15-IRAN-Anten
 
 # Create virtual environment
@@ -246,13 +300,13 @@ python launcher.py
 
 ```bash
 # Build UUID Generator
-pyinstaller --onefile --windowed uuid-Generator.py --name "iPhone-UUID-Generator"
+pyinstaller --onefile --windowed uuid-Generator.py --name "TECSO-UUID-Generator"
 
 # Build Template Generator  
-pyinstaller --onefile --windowed template-generator.py --name "iPhone-Template-Generator-Fixed"
+pyinstaller --onefile --windowed template-generator.py --name "TECSO-Template-Generator-Updated"
 
 # Build Launcher
-pyinstaller --onefile --windowed launcher.py --name "iPhone-Tools-Launcher"
+pyinstaller --onefile --windowed launcher.py --name "TECSO-Launcher-Updated"
 ```
 
 ---
@@ -281,7 +335,7 @@ pyinstaller --onefile --windowed launcher.py --name "iPhone-Tools-Launcher"
 A: Try generating a new UUID and creating a fresh profile. Ensure you're using the correct operator settings.
 
 **Q: Save function not working?**
-A: Use the fixed version: `iPhone-Template-Generator-Fixed.exe`. The original had a file dialog issue that's been resolved.
+**A: Use the latest version: `TECSO-Template-Generator-Updated.exe`. All UI issues including scrolling and grid layouts have been fixed.
 
 **Q: Executable won't run?**
 A: Ensure you have Windows Defender exceptions set up. Some antivirus software may flag PyInstaller executables.
@@ -291,7 +345,7 @@ A: Generate a new UUID and create a fresh profile. This usually happens when mul
 
 ### Getting Help
 
-1. **Check Issues** - Browse our [GitHub Issues](https://github.com/Tecso-Dev/Iphone-14-15-IRAN-Anten/issues)
+1. **Check Issues** - Browse our [GitHub Issues](https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator/issues)
 2. **Contact Support** - Reach out via Telegram: +98 992 206 8945
 3. **Email Support** - Send details to: tecsoteam@gmail.com
 4. **Community** - Join our Telegram group for user discussions
