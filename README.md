@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![TECSO Logo](https://img.shields.io/badge/TECSO-راه%20حل%20های%20حرفه%20ای%20موبایل-00ff87?style=for-the-badge&logo=apple&logoColor=white)
+![TECSO Logo](https://img.shields.io/badge/Tecso-Professional-Mobile-Configuration-Suite-for-Iranian-Networksff87?style=for-the-badge&logo=apple&logoColor=white)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-8b5cf6.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.13-00ff87?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -370,7 +370,7 @@ pyinstaller --onefile --windowed launcher.py --name "TECSO-Launcher-Updated"
 
 *راه‌حل‌های حرفه‌ای موبایل • اتصال قابل اعتماد • شبکه‌های ایرانی*
 
-[![TECSO](https://img.shields.io/badge/قدرت%20گرفته%20از-TECSO-00ff87?style=for-the-badge&logo=apple&logoColor=white)](https://tecso.team)
+[![TECSO](https://img.shields.io/badge/Powerd-by-TECSO-00ff87?style=for-the-badge&logo=apple&logoColor=white)](https://tecso.team)
 
 ---
 
