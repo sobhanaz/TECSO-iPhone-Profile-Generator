@@ -195,7 +195,8 @@ $RECYCLE.BIN/
 *.swo
 
 # TECSO Specific
-screenshots/
+
+
 temp/
 output/
 *.mobileconfig.temp
