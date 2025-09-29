@@ -39,28 +39,28 @@ TECSO iPhone Profile Generator is a comprehensive suite of professional tools de
 ### 🚀 TECSO Professional Launcher
 *Main hub for accessing all TECSO tools*
 
-![TECSO Launcher](screenshots/launcher-preview.png)
+![TECSO Launcher](https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator/blob/main/screenshots/Screenshot%202025-09-29%20150912.png)
 
 ---
 
 ### 🆔 UUID Generator
 *Generate unique identifiers for mobile profiles*
 
-![UUID Generator](screenshots/uuid-generator-preview.png)
+![UUID Generator](https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator/blob/main/screenshots/Screenshot%202025-09-29%20150951.png)
 
 ---
 
 ### 📱 Template Generator
 *Create complete mobile configuration profiles*
 
-![Template Generator](screenshots/template-generator-preview.png)
+![Template Generator](https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator/blob/main/screenshots/image.png)
 
 ---
 
 ### 📋 Generated Configuration
 *Live preview of mobile configuration XML*
 
-![Configuration Preview](screenshots/configuration-preview.png)
+![Configuration Preview](https://github.com/sobhanaz/TECSO-iPhone-Profile-Generator/blob/main/screenshots/Screenshot%202025-09-29%20150853.png)
 
 </div>
 
